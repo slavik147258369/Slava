@@ -1,0 +1,50 @@
+#num1{
+	border:2px solid #296eec;
+
+
+}
+#num2{
+	border:2px solid #cbd62a;
+}
+#plus{
+	border:2px solid  #963293;
+	width:50px;
+	height:50px;
+	background:black;
+	color:white;
+}
+#minus{
+	border:2px solid  #963293;
+	width:50px;
+	height:50px;
+	background:black;
+	color:white;
+}
+#multiply{
+	border:2px solid  #963293;
+	width:50px;
+	height:50px;
+	background:black;
+	color:white;
+}
+#divide{
+	border:2px solid  #963293;
+	width:50px;
+	height:50px;
+	background:black;
+	color:white;
+}
+#res{
+	
+}
+.general{
+width:15%;	
+background:gray;
+display:grid;
+margin-left: 41%;
+}
+
+
+
+
+

@@ -1,0 +1,83 @@
+body{
+	background-color:#f9f9f9;
+	margin:0px;
+	padding:0px;
+	font-family: sans-serif;
+}
+.main{
+	background-color:white;
+	width:1000px;
+	margin-left:15%;
+	border:2px solid #dbdbdb;
+}
+header{
+    margin:0px 40px 0px 40px;	
+}
+h1{
+	margin-top:50px;
+}
+h1:first-letter{
+	font-size:50px;
+}
+.Head{
+	background:linear-gradient(to bottom,#454444,#5d5d5d);
+	color:white;
+	list-style:none;
+    display:flex;
+	padding-inline-start: 0px;
+	margin-bottom:60px;
+}
+
+.Headinside{
+	padding:13px 31px 13px 31px;
+}
+.Headinside:hover{
+	background-color:#454545;
+	
+}
+.Middle{
+	list-style:none;
+	margin-bottom:130px;
+	padding-inline-start: 0px;
+}
+.Middleinside{
+	border:1px solid #c8c8c8;
+	width:240px;
+	padding:15px;
+	color:#656363;
+	margin: 0px 40px 0px 40px;
+}
+.Middleinside:hover{
+	background-color:#f9f9f9;
+}
+img{
+	height:390px;
+	width:590px;
+	border:2px solid #c8c8c8;
+	margin: 0px 40px 0px 40px;
+
+}
+.text{
+	margin-left:250px;
+	width:680px;
+	margin-bottom:50px;
+}
+.Foots{
+	background-color:#e1e1e1;
+	color:#2c2c2c;
+	list-style:none;
+    display:flex;
+	padding:12px;
+	margin-bottom:40px;
+}
+.Footsinside{
+	padding:5px 30px 5px 30px;
+}
+.Footsinside:hover{
+	text-decoration:underline;
+}
+.Copy{
+	margin-left:150px;
+	padding:5px 30px 5px 30px;
+}
+

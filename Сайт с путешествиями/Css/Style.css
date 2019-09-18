@@ -1,0 +1,47 @@
+body{
+	background-image:url(../Image/fon.png);
+	background-repeat:no-repeat;
+	margin:0px;
+	    background-size: cover;
+}
+.main{
+	width:1050px;
+	margin-left:10%;
+	color:white;
+}
+.img1{
+	margin-top:100px;
+	background-image:url(../Image/Palm.png);
+	padding-top:152px;
+	background-repeat: no-repeat;
+    background-position-x: right;
+	
+}
+.travel{
+ margin-left:50px;
+ margin-top:0px;
+}
+.Contacts{
+	margin-left:1000px;
+    display:grid;
+	height:0px;
+}
+.SP{
+	margin-left: 750px;
+    display: inline-block;
+    width: 0px;
+    height: 0px;
+}
+.topimg{
+    display: flex;
+    list-style: none;
+    padding-left: 125px;
+}
+ul.topimg>li>img{
+    padding-left: 10px;
+}
+ul.topimg>li{
+   display: grid;
+    text-align: center;
+    font-weight: bold;
+}
