@@ -6,7 +6,7 @@ margin:0px;
 
 .main{
 	width:1002px;
-	height:646px;
+	height:100%;
 	background:white;
 margin: 0.4% 15% 0.4% 15%;
 }
@@ -56,41 +56,42 @@ margin-left:25px;
 
 .mainimage{
 	width:100%;
-	height:207px;
+    height: 237px;
 }
 
 ul.table{
-	 display: inline-table;
-    margin: 0px;
+	 display: flex;
+     flex-direction:row;
+    width: 100%;
     padding: 0px;
-    list-style: none;
-	position:absolute;
+    margin: 0px;
+    text-align: center;
 }
-ul.table:after{
-	display: block;
-    content: ' ';
-    clear: both;
-    float: none;
-}
+
 ul.table > li{
-	display:inline-grid;
-	background:#343434;
-	color:white;
-    padding: 5px 36px 5px 35px;
-    font-size: 17px;
+  background: black;
+    color:white;
+    width: 100%;
+    height:100%;
+    list-style: none;
+    padding: 5px 0px 5px 0px;
 }
 ul.hidden{
-    display:none;	
-	list-style:none;
-	padding:0px;
-	font-size: 14px;
+   list-style: none;
+    display: none;
+    
+    
 }
 ul.table > li:hover > ul.hidden{
 	display:block;
-	padding:0px;
-	margin:0px;
+    position: absolute;
+    background: black;
+    padding: 0px;
+    width: 10%;
 }
-.table{
+
+
+.table2{
     display: flex;
     justify-content: space-between;
 }
@@ -99,5 +100,5 @@ ul.table > li:hover > ul.hidden{
 	background:#edeef0;
 	text-align:center;
 	    height: 259px;
-		margin-top: 15px;
+		
 }
