@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(../Image/fon.png);
+    background-attachment: fixed;
+    height: 750px;
+    font-family: 'Helvetica Neue';
+}
+
+.title{
+     background:linear-gradient(0deg, #07508f,#2e7ac4); 
+}
+.titletable{
+    list-style:none;
+    color:#489ad4;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 17px;
+    margin-right: 10px;
+}
+.titletable>li{
+    margin:0px 5px 0px 5px;
+    flex-direction: column;
+    padding: 6px 2px 0px 2px;;
+}
+#img{
+    
+    margin-left: 10px;
+}
+#one{
+    border-right: 1px solid #56a2dc;
+}
+#two{
+    color: white;
+    margin-left: 0px;
+}
+#three{
+    color: white;
+    background:linear-gradient(#4daada,#2e7ac4);
+}
+#three>a{
+    color:white;
+}
+.hover:hover{
+    background:linear-gradient(#4daada,#2e7ac4);
+    color:white;
+}
+
+
+.h1{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    margin: 2.5% 35% 2px 35%;
+}
+
+.table{
+    text-align: center;
+}
+.form{
+    background: rgba(0,0,0,0.5);
+    color: white;
+    margin: 0% 35% 0% 35%;
+}
+.login{
+    background: linear-gradient(0deg,#2e4579,#5f76a9);
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    width: 200px;
+    
+}
+.tableface{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3px;
+    margin-bottom: 20px;
+    padding: 35px 0px 15px 0px;
+}
+.image{
+    height: 38px;
+}
+.line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insideline{
+    width: 12%;
+    margin: 5px;
+    background: linear-gradient(1deg,#000000,#666666);
+}
+.data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+        height: 480px;
+}
+.dataform{
+    padding: 15px;
+}
+
+.forminside{
+    padding: 10px;
+    width: 220px;
+    background: radial-gradient(#0000001c, #325970);
+    border: 1px solid black;
+    color: white;
+}
+.forminside:hover{
+    background:#1b5288;
+}
+::placeholder{
+    color: white;
+    font-size: 15px;
+}
+.createaccount{
+    background: linear-gradient(180deg,#50aedb,#19344f);
+    border: 0px;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    margin:15px 0px 15px 0px;
+}
