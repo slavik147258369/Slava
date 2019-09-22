@@ -53,6 +53,7 @@ body{
     background: rgba(0,0,0,0.5);
     color: white;
     margin: 2.5% 35% 2px 35%;
+    border-radius: 7px;
 }
 
 .table{
@@ -62,6 +63,7 @@ body{
     background: rgba(0,0,0,0.5);
     color: white;
     margin: 0% 35% 0% 35%;
+    border-radius: 7px;
 }
 .login{
     background: linear-gradient(0deg,#2e4579,#5f76a9);
@@ -109,6 +111,7 @@ body{
     background: radial-gradient(#0000001c, #325970);
     border: 1px solid black;
     color: white;
+    border-radius: 9px;
 }
 .forminside:hover{
     background:#1b5288;
