@@ -1,0 +1,490 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+   margin: 18px 259px 0px 260px;
+   background: linear-gradient(to left, #d7dbf1, white);
+}
+
+header{
+    display: flex;
+    margin-bottom: 3px;
+}
+
+.tel{
+    background: linear-gradient(to bottom,#0d3559,#1e6584);
+    border-radius: 10px;
+    width: 21px;
+    height: 20px;
+    margin-left: 8px;
+    margin-top: 4px;
+
+}
+
+.body2{
+    margin: 0px 46px 0px 44px;
+    position: absolute;
+}
+
+.number{
+    font-size: 19px;
+    margin-left: 5px;
+    letter-spacing: 0.7px;
+    margin-top: 4px;
+}
+
+.logpass{
+    background: linear-gradient(to bottom,#0d3559,#1e6584);
+    font-size: 14px;
+    height: 27px;
+    display: flex;
+    margin-left: 13px;
+    align-items: center;
+    width: 496px;
+    border-radius: 4px;
+}
+.aut{
+    width: 15px;
+    height: 18px;
+    margin: 0px 4px 0px 7px;
+}
+.data{
+    height: 12px;
+    width: 108px;
+    font-size: 10px;
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+.enter{
+    border-right: 1px solid;
+    color: white;
+    height: 11px;
+    display: flex;
+    align-items: center;
+    padding-right: 4px;
+    margin-bottom: 3px;
+}
+.enter>a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.registration{
+    color: white;
+    height: 11px;
+    display: flex;
+    align-items: center;
+}
+.registration>a{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.forgot{
+    margin-left: 19px;
+    margin-bottom: 3px;
+}
+.forgot>a{
+    color:#bfbfbf;
+}
+.navi>img{
+    margin: -4px 0px 0px 13px;
+}
+nav{
+    margin-bottom: 8px;
+}
+.sidebar{
+    width: 911px;
+    display: flex;
+    background: linear-gradient(to top, #040405, #505860);
+    padding: 7px 0px 7px 0px;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-top:1px;
+}
+.sidebar>.barmain{
+    margin-left: 139px;
+    color:white;
+}
+.barmain:hover{
+    background: linear-gradient(to top,#0d3458,#1f6787);
+    border-radius: 7px;
+}
+.sidebar>.bar{
+    color:white;
+    margin-left: 25px;
+}
+.bar:hover{
+    background: linear-gradient(to top,#0d3458,#1f6787);
+    border-radius: 7px;
+}
+.layer{
+    margin-left: 61px;
+}
+.market1{
+    color:#8a9296;
+    font-size: 13px;
+    margin-left: 9px;
+}
+.market2{
+    color:#8a9296;
+    font-size: 13px;
+    margin-left: 15px;
+}
+.summ1{
+    color:#468bbf;
+    margin-left: 1px;
+}
+.summ2{
+    color:#468bbf;
+    margin-left: 10px;
+}
+section{
+    display: flex;
+    margin-bottom: 20px;
+}
+.namecomplect{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 413px;
+    height: 135px;
+    margin-left: 5px;
+    flex-wrap: wrap;
+    background: linear-gradient(to top, #9bb9f175, #FFFEF8);
+}
+.ncomp1{
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: 5px 0px 0px 19px;
+    color:#123957;
+    font-weight: bold;
+}
+.ncomp2{
+    margin-left: 53px;
+    color:#123957;
+    font-weight: bold;
+}
+.ncomp3{
+    font-size: 11px;
+    letter-spacing: 2px;
+    margin: 2px 0px 0px 65px;
+    color: #123957;
+    font-weight: bold;
+}
+.complect{
+    font-size: 12px;
+    margin: 2px 0px 23px 15px;
+}
+.comp1{
+    display: flex;
+}
+.comp2{
+    width: 79px;
+    line-height: 8px;
+    display: flex;
+}
+.comp3{
+    width: 133px;
+    margin-top: 2px;
+    line-height: 10px;
+    display: flex;
+}
+.comp4{
+    margin-top: 3px;
+    display: flex;
+}
+.podcoml1{
+    margin-left: 18px;
+    width: 100px;
+    margin-bottom: 3px;
+}
+.podcoml2{
+    margin-left: 17px;
+    padding-right: 35px;
+}
+.podcoml3{
+    margin-left: 17px;
+    height: 20px;
+}
+.podcoml4{
+    margin-left: 5px;
+    width: 101px;
+}
+.complect2{
+    font-size: 12px;
+    margin-left: 26px;
+}
+
+
+
+.searchtires{
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 190px;
+    height: 135px;
+    margin-left: 14px;
+    flex-wrap: wrap;
+    background: linear-gradient(to top, #9bb9f175, #FFFEF8);
+}
+
+.tires{
+      margin-left: 9px;
+      color: #114165;
+}
+
+.insidetires{
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+    margin-left: 14px;
+    width: 39px;
+}
+.instir1{
+    margin-top: 6px;
+    display: flex;
+    align-items: flex-end;
+}
+.instir2{
+    justify-content: flex-end;
+    margin-top: 9px;
+    display: flex;
+    width: 77px;
+}
+.instir3{
+    display: flex;
+}
+
+
+
+.searchdisk{
+    border: 1px solid black;
+    border-radius: 18px;
+    width: 263px;
+    height: 135px;
+    margin-left: 14px;
+    flex-wrap: wrap;
+    display: flex;
+    background: linear-gradient(to top, #9bb9f175, #FFFEF8);
+}
+
+.disk{
+    margin-left: 6px;
+    letter-spacing: 1px;
+    height: 0px;
+    color:#114165;
+}
+.insidedisk{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    margin-left: 13px;
+    margin-top: 20px;
+    width: 147px;
+}
+
+.disk1{
+    letter-spacing: 1.4px;
+    display: flex;
+}
+.disk2{
+    width: 93px;
+    line-height: 9px;
+    letter-spacing: 1.4px;
+    display: flex;
+}
+.disk3{
+    width: 92px;
+    line-height: 9px;
+    letter-spacing: 1.4px;
+    display: flex;
+}
+.diskright{
+    margin: 0px 0px 43px 22px;
+    font-size: 11px;
+}
+
+
+.side-lr{
+    display: flex;
+    justify-content:space-between;
+}
+.sleft{
+    width:183px;
+}
+.sright{
+    width: 183px;
+}
+.iconleft1{
+    background: linear-gradient(to bottom,#0d3559,#1e6584);
+    width: 17px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-right: 6px;
+    height: 19px;
+    margin-top: -2px;
+}
+
+
+.katalog{
+    display: flex;
+    color: #114165;
+    font-size: 13px;
+    padding: 3px 0px 3px 0px;
+    letter-spacing: 0.3px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+
+
+li.settings{
+    display: flex;
+    color: #114165;
+    font-size: 13px;
+    align-items: center;
+    width: 149px;
+    margin: 12px 0px 19px 0px;
+    letter-spacing: 0.3px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.name{
+    font-size: 15px;
+    margin: -16px 0px 15px 54px;
+    line-height: 23px;
+}
+.krug{
+    margin-left: 6px;
+}
+.name>a{
+    text-decoration: none;
+    color:#114165;
+}
+.name>a:hover{
+    text-decoration: underline;
+}
+
+.sright{
+    
+}
+li.settings2{
+    display: flex;
+    color: #114165;
+    font-size: 13px;
+    align-items: center;
+    width: 134px;
+    margin: 12px 0px 20px 13px;
+    letter-spacing: 0.3px;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.brend{
+    display: flex;
+    color: #114165;
+    font-size: 13px;
+    padding: 3px 0px 3px 0px;
+    letter-spacing: 1.3px;
+    border: 1px solid black;
+    margin-bottom: 15px;
+    border-radius: 14px;
+}
+.brendinside{
+    display: flex;
+    margin: -12px 0px 16px 25px;
+    align-items: center;
+    letter-spacing: 2px;
+}
+
+
+.middle{
+    width: 530px;
+    display: flex;
+    height: 618px;
+    justify-content: space-between;
+    margin-top: 2px;
+    border: 1px solid;
+    background:linear-gradient(to top, #95a8b1, #dadfe1);
+}
+.goodyear{
+    display: flex;
+    flex-direction: column;
+    width: 196px;
+    text-align: center;
+}
+.goodyear2{
+    margin-top: 17px;
+}
+.goodyear3{
+   margin-top: 19px;
+}
+.nokian{
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+    text-align: center;
+}
+.nokian2{
+    margin-top: 17px;
+}
+.nokian3{
+    margin-top: 19px;
+}
+.hankook{
+    display: flex;
+    flex-direction: column;
+    width: 195px;
+    margin-right: 10px;
+    text-align: center;
+}
+.hankook2{
+    margin-top: 17px;
+}
+.hankook3{
+    margin-top: 19px;
+}
+
+.wheel{
+    border-radius: 5px;
+    background: white;
+    width: 77px;
+    height: 117px;
+    padding: 7px 35px 1px 25px;
+}
+.wheel2{
+    border-radius: 5px;
+    background: white;
+    width: 77px;
+    height: 117px;
+    padding: 7px 35px 1px 25px;
+}
+.wheel3{
+    border-radius: 5px;
+    background: white;
+    width: 77px;
+    height: 117px;
+    padding: 7px 35px 1px 25px;
+}
+
+.footer{
+    display: flex;
+    width: 911px;
+    height: 102px;
+    background: #213a4d;
+    color:white;
+    justify-content: center;
+}
+.foot{
+    padding: 0px 10px 0px 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    border-left: 1px solid white;
+    height: 17px;
+}
+.foot:hover{
+    color:#52abcb;
+}
