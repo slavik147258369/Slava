@@ -1,0 +1,297 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "LeagueGothicRegular";
+}
+
+header{
+    background:url("../Image/fon.png");
+    overflow: hidden;
+    height: 847px;
+}
+.head{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+}
+.headinside{
+    margin-top: 72px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 161px;
+}
+.tableinside{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 629px;
+    list-style: none;
+}
+
+.tableinside>li:hover{
+    border-bottom: 3px solid #a77db7; 
+    height: fit-content;
+}
+.headinside>div{
+    margin: -11px 0px 0px 2px;
+    font-size: 47px;
+}
+.headinside>div:after{
+    content: "ER";
+    background: linear-gradient(to bottom,#745083,#291e2f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.headmiddle{
+    background: rgba(0,0,0,0.2);
+    height: 401px;
+}
+.middleword{
+    margin-top: 72px;
+    width: 960px;
+    margin: auto;
+    display: flex;
+}
+.headmiddle>.middleword>.insidemiddle>h1{
+    font-size: 59px;
+    height: 63px;
+    color: white;
+}
+.middleword>.insidemiddle>h2{
+    font-size: 32px;
+    color: #edbfff;
+}
+.middleword>.insidemiddle>div{
+    font-size: 19px;
+    line-height: 24px;
+    margin-top: 2px;
+    letter-spacing: 2.8px;
+    color: white;
+}
+.insidemiddle{
+    width: 525px;
+    margin-top: 70px;
+}
+.radio{
+    height: 168px;
+    display: flex;
+    width: 960px;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+}
+.radio>div{
+    margin: 37px 164px 0px 0px;
+}
+.radio>div>input{
+    width: 18px;
+    height: 20px;
+}
+
+
+
+.headfooter{
+    background: linear-gradient(to bottom,#734f81,#36273d);
+    height: 340px;
+}
+.footer{
+    width: 960px;  
+    margin: auto;
+    color: white;
+}
+.footmain{
+    display: flex;
+    width: 15%;
+}
+.foot{
+    margin:74px 38px 0px 70px;
+}
+.foot>img{
+    position: absolute;
+    margin: 8px 0px 0px -57px;
+}
+.foot>h2{
+    font-size: 30px;   
+}
+.foot>div{
+    letter-spacing: 2.3px;
+    width: 230px;
+    line-height: 26px;
+}
+.exit{
+    text-align: end;
+    margin: 11px 0px 0px -13px;
+    font-size: 17px;
+}
+.exit:hover{
+    text-shadow: 0 0 7px white;
+}
+
+.comment{
+    height: 488px;
+    background-color:#f9f9f9;
+}
+
+.comment-glav{
+    width: 960px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.comment-left{
+    width: 428px;
+    height: 272px;
+    background-color: white;
+    margin: 100px 0px 0px 30px;
+}
+.comment-left>h2{
+    font-size: 30px;
+    margin: -27px 0px 0px 36px;
+    letter-spacing: 0.3px;
+}
+.comment-left>div{
+    width: 357px;
+    margin: 8px 0px 0px 35px;
+    letter-spacing: 2px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #5e5e5e;
+}
+.comment-left>form{
+    position: absolute;
+    margin: 57px 0px 0px 173px;
+}
+.comment-left>form>input{
+    width: 17px;
+    height: 19px;
+}
+
+
+
+.comment-right{
+    margin: 100px 0px 0px 0px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+.recent{
+    margin-top: 28px;
+    font-size: 30px;
+}
+.right{
+    margin-top: 15px;
+}
+
+.nunc{
+    font-size: 19px;
+    margin-left: 69px;
+    letter-spacing: 3.3px;
+    color: #3c3a3a;
+}
+.posted{
+    margin-left: 69px;
+    margin-top: 2px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    color: #5e5e5e;
+}
+.comment-right>.more-right{
+    text-align: end;
+    font-size: 18px;
+    margin: 22px 17px 0px 0px;
+}
+
+
+
+
+.logos{
+    width: 960px;
+    margin: auto;
+    height: 120px;
+    overflow: hidden;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+
+
+.footsbottom{
+    overflow: hidden;
+    height: 398px;
+    background: #ececec;
+}
+.footbottominside{
+    display: flex;
+    width: 960px;
+    margin: auto;
+    align-items: center;
+    height: 370px;
+    
+}
+.footbottom{
+    width: 280px;
+    font-size: 20px;
+    margin-right: 65px;
+}
+.footbottom>h1{
+    font-size: 47px;
+    height: 49px;
+    margin: 30px 0px 5px 0px;
+}
+.footbottom>h1:after{
+    content: "ER";
+    color: #787878;
+}
+.footbottom>h2{
+    letter-spacing: -0.3px;
+    margin: 30px 0px 0px 0px;
+}
+.footbottom>.copyrights{
+  letter-spacing: 2.1px;
+    line-height: 40px;
+}
+.footbottom>div{
+    font-size: 21px;
+    letter-spacing: 2px;
+    line-height: 22px;
+    color: #787878;
+}
+
+
+
+.menuend{
+    height: 113px;
+    overflow: hidden;
+    background: url("../Image/end.png");
+}
+
+.end{
+    width: 960px;
+    margin: auto;
+}
+.m-e{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    height: 113px;
+    align-items: center;
+}
+.m-e>li{
+    font-size: 21px;
+    margin-right: 42px;
+    color: white;
+}
+
+
+
+
+
+
