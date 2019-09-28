@@ -4,6 +4,8 @@
     font-family: "LeagueGothicRegular";
 }
 
+
+
 header{
     background:url("../Image/fon.png");
     overflow: hidden;
@@ -28,6 +30,12 @@ header{
     width: 629px;
     list-style: none;
 }
+.hiddentable{
+    display: none;
+}
+
+
+
 
 .tableinside>li:hover{
     border-bottom: 3px solid #a77db7; 
@@ -49,6 +57,7 @@ header{
 .headmiddle{
     background: rgba(0,0,0,0.2);
     height: 401px;
+    text-shadow: 3px -1px 16px black;
 }
 .middleword{
     margin-top: 72px;
@@ -75,6 +84,9 @@ header{
 .insidemiddle{
     width: 525px;
     margin-top: 70px;
+}
+#img{
+margin: -17px 0px 0px 95px;
 }
 .radio{
     height: 168px;
@@ -205,7 +217,9 @@ header{
     font-size: 18px;
     margin: 22px 17px 0px 0px;
 }
-
+.comment-right>.more-right>.span2{
+    display: none;
+}
 
 
 
@@ -236,6 +250,9 @@ header{
     height: 370px;
     
 }
+ #footb{
+     margin: 0px;   
+    }
 .footbottom{
     width: 280px;
     font-size: 20px;
@@ -289,8 +306,9 @@ header{
     margin-right: 42px;
     color: white;
 }
-
-
+.m-e>li:hover{
+    border-bottom: 1.2px solid #6e0994;
+}
 
 
 

@@ -1,0 +1,215 @@
+@media (min-width:0px) and (max-width:400px){
+    
+    header{
+        height: 516px;
+    }
+    .head{
+        width: 320px;
+        height: 204px;
+    }
+    .headinside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .headinside>.tableinside{
+        display: none;
+    }
+    .hiddentable{
+        list-style: none;
+        margin-top: 58px;
+        width: 248px;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        border: 1px solid #3e3146;
+        position: absolute;
+        align-items: center;
+        background: #3e3146;
+        opacity: 0.8;
+        color: white;
+        border-radius: 12px;
+    }
+    .hiddentable>.hidden{
+        margin-top: 13px;
+    }
+     .hiddentable>.hidden>a:hover{
+        border-bottom: 2px solid #edbfff;
+    }
+    .hidden>.hiddeninside{
+        display: none;
+        list-style: none;
+        width: 248px;
+    }
+    .hidden:hover>.hiddeninside{
+        display: block;
+    }
+    .hidden>.hiddeninside>li{
+       margin-top: 8px;
+       height: 35px;
+    }
+    .hidden>.hiddeninside>li>a:hover{
+        border-bottom: 2px solid #edbfff;
+    }
+    .headmiddle {
+        height: 205px;
+    }
+    .middleword {
+    width: 320px;
+    }
+    #ins{
+        display: none;
+    }
+    .insidemiddle {
+    width: 316px;
+    margin-top: 91px;
+    margin-left: 65px;
+    }
+    .headmiddle>.middleword>.insidemiddle>h1 {
+    font-size: 31px;
+    letter-spacing: 1.5px;
+    width: 190px;
+    height: 36px;
+    }
+    .middleword>.insidemiddle>h2 {
+    font-size: 21px;
+    letter-spacing: -1px;
+    width: 200px;
+    }
+    .middleword>.insidemiddle>h2>span{
+        display: none;
+    }
+    #img{
+        display: none;
+    }
+    .radio{
+        width: 320px;
+        height: 100px;
+    }
+    .radio>div {
+    margin: -32px 118px 0px 0px;
+    }
+    .headfooter{
+        height: 600px;
+    }
+    .footer{
+        width: 320px;
+        height: 600px;
+    }
+    .footmain{
+        flex-direction: column;
+    }
+    .foot>div>span{
+        display: contents;
+    }
+    .foot{
+        width: 210px;
+        margin: 62px 0px -33px 84px;
+    }
+    .foot>h2{
+        font-size: 24px;
+    }
+    .foot>div{
+        display: flex;
+        width: 210px;
+        letter-spacing: 0.4px;
+    }
+    .foot>div>span{
+        display: none;
+    }
+    #exit {
+        margin: 8px 0px 0px -2px;
+        letter-spacing: 0.4px;
+        justify-content: flex-end;
+    }
+    .comment{
+        height: 786px;
+    }
+    .comment-glav{
+        width: 320px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comment-left {
+        width: 260px;
+        margin: 68px 0px 0px 43px;
+        height: 274px;
+    }
+    .comment-left>h2{
+        width: 120px;
+        font-size: 22px;
+        margin: -29px 0px 0px 40px;
+        display: block;
+    }
+    .comment-left>h2>a{
+        font-size: 22px;
+    }
+    .comment-left>div{
+        width: 212px;
+        letter-spacing: 1.9px;
+        margin: 13px 0px 0px 42px;
+    }
+    .right {
+        margin-top: 12px;
+    }
+    .comment-left>div>span{
+        display: none;
+    }
+    .comment-left>form{
+        margin: 35px 0px 0px 102px;
+    }
+    .comment-right{
+        margin: 56px 0px 0px 20px;
+        width: 290px;
+    }
+    .comment-right>.more-right>.span2{
+        display: block;
+        margin: -17px -5px 0px 0px;
+    }
+    .comment-right>.more-right>.span1{
+        display: none;
+    }
+    .nunc{
+        letter-spacing: 0px;
+    }
+    .posted{
+        font-size: 14px;
+    }
+    .logos{
+        width: 320px;
+        height: 421px;
+    }
+    .logo{
+        margin: 180px 0px 0px 0px;
+        width: 360px;
+    }
+    .footsbottom{
+         display: none;
+    }
+    .menuend{
+        height: 201px;
+        background-size: 823%;
+    }
+    .end{
+        display: none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}

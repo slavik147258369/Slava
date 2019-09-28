@@ -1,0 +1,222 @@
+@media (min-width:400px) and (max-width:800px){
+    
+    header{
+        height: 547px;
+    }
+    .head{
+        width: 480px;
+        height: 204px;
+    }
+    .headinside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .headinside>.tableinside{
+        display: none;
+    }
+    .hiddentable{
+        list-style: none;
+        margin-top: 58px;
+        width: 248px;
+        justify-content: center;
+        display: flex;
+        text-align: center;
+        border: 1px solid #3e3146;
+        position: absolute;
+        align-items: center;
+        background: #3e3146;
+        opacity: 0.8;
+        color: white;
+        border-radius: 12px;
+    }
+    .hiddentable>.hidden{
+        margin-top: 13px;
+    }
+     .hiddentable>.hidden>a:hover{
+        border-bottom: 2px solid #edbfff;
+    }
+    .hidden>.hiddeninside{
+        display: none;
+        list-style: none;
+        width: 248px;
+    }
+    .hidden:hover>.hiddeninside{
+        display: block;
+    }
+    .hidden>.hiddeninside>li{
+       margin-top: 8px;
+       height: 35px;
+    }
+    .hidden>.hiddeninside>li>a:hover{
+        border-bottom: 2px solid #edbfff;
+    }
+    .headmiddle {
+        height: 245px;
+    }
+    .middleword {
+    width: 480px;
+    }
+    #ins{
+        display: none;
+    }
+    .insidemiddle {
+    width: 316px;
+    margin-top: 91px;
+    margin-left: 40px;
+    }
+    .headmiddle>.middleword>.insidemiddle>h1 {
+    font-size: 31px;
+    letter-spacing: 1.5px;
+    width: 190px;
+    height: 36px;
+    }
+    .middleword>.insidemiddle>h2 {
+    font-size: 21px;
+    letter-spacing: -1px;
+    width: 200px;
+    }
+    #img{
+        width: 193px;
+        height: 305px;
+        margin: -11px 30px 0px 0px;
+    }
+    .radio{
+        width: 480px;
+        height: 100px;
+    }
+    .radio>div {
+    margin: -32px 195px 0px 0px;
+    }
+    .headfooter{
+        height: 600px;
+    }
+    .footer{
+        width: 480px;
+        height: 600px;
+    }
+    .footmain{
+        flex-direction: column;
+    }
+    .foot>div>span{
+        display: contents;
+    }
+    .foot{
+        width: 390px;
+        margin: 76px 0px -54px 84px;
+    }
+    .foot>h2{
+        
+    }
+    .foot>div{
+        display: flex;
+        width: 370px;
+        letter-spacing: 2.5px;
+    }
+    #exit {
+        margin: 8px 0px 0px -2px;
+        letter-spacing: 0.4px;
+        justify-content: flex-end;
+    }
+    .comment{
+        height: 786px;
+    }
+    .comment-glav{
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+    }
+    .comment-left {
+        width: 416px;
+        margin: 68px 0px 0px 43px;
+        height: 276px;
+    }
+    .comment-left>h2{
+        width: 250px;
+        font-size: 28px;
+        margin: -29px 0px 0px 40px;
+        display: block;
+    }
+    .comment-left>h2>a{
+        font-size: 29px;
+    }
+    .comment-left>div{
+        width: 353px;
+        letter-spacing: 1.9px;
+        margin: 13px 0px 0px 42px;
+    }
+    .comment-left>div>span{
+        display: contents;
+    }
+    .comment-left>form{
+        margin: 55px 0px 0px 166px;
+    }
+    .comment-right{
+        margin: 56px 0px 0px 84px;
+    }
+    .comment-right>.more-right>.span2{
+        margin-right: -8px;
+    }
+    .logos{
+        width: 480px;
+        height: 233px;
+    }
+    .logo{
+        margin: 80px 0px 0px 0px;
+    }
+    .footsbottom{
+        height: 669px;
+    }
+    .footbottominside{
+        width: 480px;
+        flex-wrap: wrap;
+    }
+    .footbottom>div{
+        width: 420px;
+        letter-spacing: 1.9px;
+    }
+    .footbottom>div>span{
+        display: contents;
+    }
+    #footb{
+        margin: 22px 0px 0px 20px;
+    }
+    .footbottom {
+        width: 440px;
+        margin: 40px 0px 0px 22px;
+    }
+    .menuend{
+        height: 201px;
+        background-size: 653%;
+    }
+    .end{
+        width: 480px;
+    }
+    
+    .m-e>li{
+        margin: 0px 3px 0px 24px;
+        font-size: 19px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
